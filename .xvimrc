@@ -1,0 +1,46 @@
+syntax enable           " enable syntax processing
+set tabstop=4           " number of visual spaces per TAB
+set softtabstop=4       " number of spaces in tab when editing
+set expandtab           " tabs are spaces
+set relativenumber 
+set number
+set showcmd             " show command in bottom bar
+set cursorline          " highlight current line
+filetype indent on      " load filetype-specific indent files
+set wildmenu            " visual autocomplete for command menu
+set lazyredraw          " redraw only when we need to.
+set showmatch           " highlight matching [{()}]
+
+" Search
+set incsearch           " search as characters are entered
+set hlsearch            " highlight matches
+set ignorecase
+set smartcase
+
+" Comments
+nnoremap gcc :xcmenucmd Comment Selection<CR>
+vnoremap gc :xcmenucmd Comment Selection<CR>
+
+" vim-unimpaired knock off
+" Exchange lines
+nnoremap ]e "udd"up
+nnoremap [e "uddk"uP
+
+" Emulate CTRL-P
+noremap <C-p> :xccmd openQuickly<CR>
+
+" Window navigation
+ nnoremap <C-j> <C-w>j
+ nnoremap <C-k> <C-w>k
+ nnoremap <C-h> <C-w>h
+ nnoremap <C-l> <C-w>l
+
+" Use the system pasteboard
+set clipboard=unnamed
+
+" Center after find
+nnoremap n nzz
+nnoremap N Nzz
+
+inoremap kj <esc>
+inoremap jk <esc>

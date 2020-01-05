@@ -1,0 +1,23 @@
+{
+    "editor.fontFamily": "'Iosevka Nerd Font Mono', 'PragmataPro for Powerline', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "files.autoSave": "off",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "editor.minimap.enabled": true,
+    "workbench.colorTheme": "Nord",
+    "window.zoomLevel": 1,
+    "editor.wordWrap": "on",
+    "files.trimTrailingWhitespace": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.hlsearch": true,
+    "vim.leader": " ",
+    "vim.visualstar": true,
+    "vim.useSystemClipboard": true,
+    "python.pythonPath": "/usr/local/bin/python3",
+}
