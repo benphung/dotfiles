@@ -12,6 +12,9 @@ echo "Installing packages..."
 IFS=$'\n' PACKAGES=($(<leaves))
 brew install ${PACKAGES[@]}
 
+echo "Tapping..."
+brew tap homebrew/cask-fonts
+
 echo "Installing casks..."
 IFS=$'\n' CASKS=($(<casks))
 brew cask install ${CASKS[@]}
