@@ -21,6 +21,8 @@ set ignorecase
 
 set clipboard=unnamed
 
+set mouse=a
+
 " Movement
 " move vertically by visual line
 nnoremap j gj
