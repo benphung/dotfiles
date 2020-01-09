@@ -8,4 +8,5 @@ node
 ripgrep
 tmux
 tree
+zsh-autosuggestions
 zsh-syntax-highlighting
