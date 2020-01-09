@@ -1,6 +1,8 @@
+coreutils
 fzf
 git
 gnu-sed
+mas
 neovim
 node
 ripgrep

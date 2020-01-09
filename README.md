@@ -1,7 +1,14 @@
 # dotfiles
 
-## Font
-https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka
+## [oh-my-zsh](https://ohmyz.sh/)
+```
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+## Brew
+```
+$ brew/setup.sh
+```
 
 ## Pywal
 ```
