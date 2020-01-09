@@ -44,14 +44,6 @@ function! ToggleNumber()
     endif
 endfunc
 
-" Install vim-plug if we don't already have it
-if empty(glob("~/.vim/autoload/plug.vim"))
-    execute 'mkdir -p ~/.vim/plugged'
-    execute 'mkdir -p ~/.vim/autoload'
-    " Download the actual plugin manager
-    execute '!curl -fLo ~/.vim/autoload/plug.vim https://raw.github.com/junegunn/vim-plug/master/plug.vim'
-endif
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install' }

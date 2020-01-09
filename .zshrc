@@ -14,6 +14,9 @@ source $ZSH/oh-my-zsh.sh
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+HISTSIZE=10000000
+SAVEHIST=10000000
+
 alias awk1="awk '{print \$1}'"
 alias awk2="awk '{print \$2}'"
 alias awk3="awk '{print \$3}'"
