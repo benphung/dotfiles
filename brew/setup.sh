@@ -14,8 +14,8 @@ brew install ${PACKAGES[@]}
 
 echo "Tapping..."
 brew tap homebrew/cask-fonts
-brew install font-iosevka-nerd-font --fontdir=/Library/Fonts
-brew install font-iosevka-nerd-font-mono --fontdir=/Library/Fonts
+brew cask install font-iosevka-nerd-font --fontdir=/Library/Fonts
+brew cask install font-iosevka-nerd-font-mono --fontdir=/Library/Fonts
 
 echo "Installing casks..."
 IFS=$'\n' CASKS=($(<casks))
