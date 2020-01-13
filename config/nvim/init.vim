@@ -55,8 +55,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'flazz/vim-colorschemes'
 Plug 'altercation/vim-colors-solarized'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
@@ -91,9 +90,11 @@ command! -bang -nargs=? -complete=dir Files
 colorscheme wal
 set t_Co=256
 
-" Airline
-let g:airline_powerline_fonts = 1
-let g:airline_theme = 'wal'
+" lightline
+let g:lightline = {
+      \ 'colorscheme': 'wal',
+      \ }
+set noshowmode
 
 " HTML
 let g:html_indent_script1 = "inc"
