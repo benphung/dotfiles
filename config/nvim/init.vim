@@ -46,7 +46,7 @@ endfunc
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 Plug 'scrooloose/nerdtree' " Navigate files in a sidebar
 Plug 'bkad/CamelCaseMotion' " CamelCase motions through words
 Plug 'vim-scripts/tComment'
