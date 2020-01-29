@@ -13,3 +13,4 @@ ln -s -f ~/.config/nvim/init.vim ~/.vimrc
 
 ln -s -f $(realpath preferences/iterm/com.googlecode.iterm2.plist) ~/Library/Preferences/com.googlecode.iterm2.plist
 
+ln -s -f $(realpath vscode/settings.json) ~/Library/Application\ Support/Code/User/settings.json
