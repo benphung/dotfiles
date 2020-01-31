@@ -1,5 +1,5 @@
 #!/bin/bash
-files=(".gitalias" ".spacemacs" ".tmux.conf" ".xvimrc" ".zshrc")
+files=(".gitalias" ".ideavimrc" ".spacemacs" ".tmux.conf" ".xvimrc" ".zshrc")
 for file in "${files[@]}"; do
   ln -s -f $(realpath $file) ~/$file
 done
