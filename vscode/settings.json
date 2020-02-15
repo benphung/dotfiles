@@ -20,4 +20,5 @@
     "vim.visualstar": true,
     "vim.useSystemClipboard": true,
     "python.pythonPath": "/usr/local/bin/python3",
+    "terminal.integrated.shell.osx": "/bin/bash",
 }
