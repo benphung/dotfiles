@@ -84,6 +84,18 @@ function ide() {
   tmux split-window -h -p 50
 }
 
+function note() {
+  local title="$1"
+  local timestamp="$(date +%Y-%m-%d)"
+  local dir="${HOME}/Dropbox/Notes"
+  cd "${dir}"
+  if [[ -n $1 ]]; then
+    exec vim "$timestamp-$title.md"
+  else
+    exec vim .
+  fi
+}
+
 # Start tmux
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
   tmux attach -t default || tmux new -s default
