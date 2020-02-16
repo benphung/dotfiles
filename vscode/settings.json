@@ -16,6 +16,16 @@
     "files.trimTrailingWhitespace": true,
     "vim.camelCaseMotion.enable": true,
     "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+      },
+      {
+        "before": ["k", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
     "vim.leader": " ",
     "vim.visualstar": true,
     "vim.useSystemClipboard": true,
