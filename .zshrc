@@ -51,6 +51,7 @@ alias stree='open -a /Applications/SourceTree.app'
 alias code="open -a 'Visual Studio Code'"
 alias g='git'
 alias marked='open -a "/Applications/Marked 2.app"'
+alias fork='open -a /Applications/Fork.app'
 
 
 # RANDOM
