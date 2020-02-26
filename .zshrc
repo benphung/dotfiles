@@ -90,9 +90,9 @@ function note() {
   local dir="${HOME}/Dropbox/Notes"
   cd "${dir}"
   if [[ -n $1 ]]; then
-    exec vim "$timestamp-$title.md"
+    vim "$timestamp-$title.md"
   else
-    exec vim .
+    vim .
   fi
 }
 
