@@ -63,22 +63,6 @@ autoload -U promptinit; promptinit
 # zstyle :prompt:pure:prompt:success color green
 prompt pure
 
-# wal
-# Run "wal --theme base16-nord"
-# Fix cursor issue: https://github.com/dylanaraps/pywal/issues/382
-# "copied the current contents of sequences.py from github into /usr/local/lib/python3.7/site-packages/pywal/sequences.py"
-
-# Import colorscheme from 'wal' asynchronously
-# &   # Run the process in the background.
-# ( ) # Hide shell job control messages.
-(cat ~/.cache/wal/sequences &)
-
-# Alternative (blocks terminal for 0-3ms)
-cat ~/.cache/wal/sequences
-
-# To add support for TTYs this line can be optionally added.
-source ~/.cache/wal/colors-tty.sh
-
 function ide() {
   tmux split-window -v -p 30
   tmux split-window -h -p 66

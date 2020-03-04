@@ -67,7 +67,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'tpope/vim-rails'
 Plug 'airblade/vim-gitgutter'
 Plug 'mtdl9/vim-log-highlighting'
-Plug 'dylanaraps/wal.vim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'christoomey/vim-tmux-navigator'
@@ -91,12 +91,12 @@ command! -nargs=* -bang Rg call RipgrepFzf(<q-args>, <bang>0)
 command! -bang -nargs=? -complete=dir Files
   \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
-colorscheme wal
+colorscheme nord
 set t_Co=256
 
 " lightline
 let g:lightline = {
-      \ 'colorscheme': 'wal',
+      \ 'colorscheme': 'nord',
       \ }
 set noshowmode
 

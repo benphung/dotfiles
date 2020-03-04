@@ -22,14 +22,7 @@
     ```
     $ npm install --global pure-prompt
     ```
-6. Pywal
-    ```
-    $ sudo pip3 install pywal --user
-    $ wal --theme base16-nord
-    ```
-    Fix for invisible cursor: https://github.com/dylanaraps/pywal/issues/382
-
-7. Additional
+6. Additional
     ```
     $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
