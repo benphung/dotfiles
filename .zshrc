@@ -83,5 +83,5 @@ function note() {
 
 # Start tmux
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-  tmux attach -t default || tmux new -s default
+  tmux attach -t tmux || tmux new -s tmux
 fi
