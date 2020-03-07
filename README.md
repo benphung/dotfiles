@@ -25,7 +25,8 @@
 6. Tmux
     1. Clone https://github.com/arcticicestudio/nord-tmux into `~/.tmux/themes/nord-tmux/nord.tmux`
     2. Reload tmux
-7. Additional
+7. Install Nord theme for iTerm2 from https://github.com/arcticicestudio/nord-iterm2/releases or from this repo
+8. Additional
     ```
     $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
