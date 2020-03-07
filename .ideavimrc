@@ -11,4 +11,8 @@ set ideajoin
 " https://youtrack.jetbrains.com/issue/VIM-1521
 set commentary
 
+imap jk <Esc>
+imap kj <Esc>
+set timeoutlen=1000
+
 let mapleader = " "
