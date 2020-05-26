@@ -85,6 +85,7 @@ function note() {
     vim .
   fi
 }
+alias notes="cd ~/Dropbox/Notes; vim"
 
 # Start tmux
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
