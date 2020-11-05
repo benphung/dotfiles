@@ -35,7 +35,7 @@ fi
 
 
 # PATH
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/Apple/usr/bin/
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
@@ -86,6 +86,10 @@ function note() {
   fi
 }
 alias notes="cd ~/Dropbox/Notes; vim"
+
+function scratch() {
+  nvim "+Scratch $*"
+}
 
 # Start tmux
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
