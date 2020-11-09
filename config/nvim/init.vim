@@ -46,6 +46,8 @@ endfunc
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 Plug 'scrooloose/nerdtree' " Navigate files in a sidebar
 Plug 'bkad/CamelCaseMotion' " CamelCase motions through words
@@ -236,3 +238,8 @@ func! Scratch(...)
     exec "normal ggO\<c-r>=strftime('%Y-%m-%d %H:%M')\<cr>\<cr>\<esc>G"
   endif
 endfunc
+
+" Markdown
+let g:vim_markdown_folding_disabled = 1
+set conceallevel=2
+let g:vim_markdown_conceal_code_blocks = 0
