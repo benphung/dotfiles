@@ -74,6 +74,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'markonm/traces.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
 
 filetype plugin indent on                   " required!
 call plug#end()
