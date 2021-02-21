@@ -89,6 +89,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'markonm/traces.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
+Plug 'hashivim/vim-terraform'
 
 filetype plugin indent on                   " required!
 call plug#end()
@@ -263,3 +264,7 @@ endfunc
 let g:vim_markdown_folding_disabled = 1
 let g:vim_markdown_conceal = 0
 let g:vim_markdown_new_list_item_indent = 0
+
+" Terraform
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
