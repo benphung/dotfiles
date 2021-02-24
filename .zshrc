@@ -26,6 +26,8 @@ alias awk5="awk '{print \$5}'"
 
 export DEFAULT_USER=`whoami`
 export TERM=xterm-256color
+export COLORTERM=truecolor
+export BAT_THEME=Nord
 
 
 # LOCAL
