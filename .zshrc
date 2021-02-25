@@ -55,6 +55,15 @@ alias g='git'
 alias marked='open -a "/Applications/Marked 2.app"'
 alias fork='open -a /Applications/Fork.app'
 
+alias k='kubectl'
+alias kg='kubectl get'
+alias kgp='kubectl get pods'
+alias kex='kubectl exec -it'
+alias klo='kubectl logs -f'
+alias kd='kubectl describe'
+
+source <(kubectl completion zsh)
+complete -F __start_kubectl k
 
 # RANDOM
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
