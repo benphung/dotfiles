@@ -62,6 +62,9 @@ alias kex='kubectl exec -it'
 alias klo='kubectl logs -f'
 alias kd='kubectl describe'
 
+alias doc='docker'
+alias docc='docker-compose'
+
 source <(kubectl completion zsh)
 complete -F __start_kubectl k
 
