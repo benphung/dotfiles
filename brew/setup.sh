@@ -14,12 +14,12 @@ brew install ${PACKAGES[@]}
 
 echo "Tapping..."
 brew tap homebrew/cask-fonts
-brew cask install font-iosevka-nerd-font --fontdir=/Library/Fonts
-brew cask install font-iosevka-nerd-font-mono --fontdir=/Library/Fonts
+brew install font-iosevka-nerd-font --cask --fontdir=/Library/Fonts
+brew install font-iosevka-nerd-font-mono -- cask --fontdir=/Library/Fonts
 
 echo "Installing casks..."
 IFS=$'\n' CASKS=($(<casks))
-brew cask install ${CASKS[@]}
+brew install ${CASKS[@]} --cask
 
 echo "Upgrading packages..."
 brew upgrade

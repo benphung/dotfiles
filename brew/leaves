@@ -5,6 +5,7 @@ gnu-sed
 mas
 neovim
 node
+pure
 ripgrep
 tmux
 tree

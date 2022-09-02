@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Look in ~/.oh-my-zsh/themes/
-# ZSH_THEME="agnoster"
+ZSH_THEME=""
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -78,6 +78,7 @@ export FZF_DEFAULT_OPTS="
 
 # PURE THEME (https://github.com/sindresorhus/pure)
 # Run npm install --global pure-prompt
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 # zstyle :prompt:pure:prompt:success color green
 prompt pure

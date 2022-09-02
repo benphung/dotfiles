@@ -18,15 +18,11 @@
     ```
     $ ./setup.sh
     ```
-5. Pure
-    ```
-    $ npm install --global pure-prompt
-    ```
-6. Tmux
+5. Tmux
     1. Clone https://github.com/arcticicestudio/nord-tmux into `~/.tmux/themes/nord-tmux/nord.tmux`
     2. Reload tmux
-7. Install Nord theme for iTerm2 from https://github.com/arcticicestudio/nord-iterm2/releases or from this repo
-8. Additional
+6. Install Nord theme for iTerm2 from https://github.com/arcticicestudio/nord-iterm2/releases or from this repo
+7. Additional
     ```
     $ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
     ```
