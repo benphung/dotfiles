@@ -71,7 +71,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'flazz/vim-colorschemes'
 Plug 'altercation/vim-colors-solarized'
 Plug 'itchyny/lightline.vim'
-Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
 Plug 'godlygeek/tabular'
